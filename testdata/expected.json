@@ -1,0 +1,12 @@
+{
+  "_note": "DUMMY wallet, made in 2024 for testing and never funded. Its words are public here: NEVER send funds to it.",
+  "words": "inject old member artwork pottery sunset weasel whip plug live you fan",
+  "fingerprint": "C212E86B",
+  "photos": {
+    "dummy-01-window-light.jpg": {"light": "window, diffuse", "background": "white cloth", "expect": "read"},
+    "dummy-02-direct-sun.jpg": {"light": "direct sun", "background": "wood", "expect": "read"},
+    "dummy-03-angled-cloth.jpg": {"light": "window, angled shot", "background": "grey cloth", "expect": "read"},
+    "dummy-04-rotated.jpg": {"light": "room light, slight blur", "background": "wood", "expect": "read"},
+    "dummy-05-too-far.jpg": {"light": "window", "background": "grey cloth", "expect": "fail", "why": "plate fills ~1/4 of the frame; letters too small"}
+  }
+}

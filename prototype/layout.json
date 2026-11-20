@@ -1,0 +1,10 @@
+{
+  "x0": 186.56113829304402,
+  "y0": 49.08782216921591,
+  "ux": 9.043645343294347,
+  "uy": 9.329409644381707,
+  "lines": 12,
+  "word_col": 3,
+  "max_letters": 8,
+  "note": "canonical view from warp.py (holes -> 1580x1000 + 60 px pad)"
+}
