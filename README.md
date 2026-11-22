@@ -16,6 +16,7 @@ SH01 credit-card plates with 12 words in one column, the master fingerprint, and
 |---|---|
 | [`prototype/`](prototype/) | The reader in Python (OpenCV): finds the plate by its corner holes, straightens it, reads each letter against Seed Hammer's own font, picks the BIP39 words and checks the checksum |
 | [`plate-capture/`](plate-capture/) | Camera test kit for a Pi Zero with the SeedSigner camera: takes full-resolution photos onto the SD card |
+| [`PLATES.md`](PLATES.md) | Hole positions and text layout of every Seed Hammer plate size (SH01, SH02, SH03) |
 | [`testdata/`](testdata/) | Photos of a **dummy** plate (never funded) and the words they should read as |
 
 ## How it reads a plate
