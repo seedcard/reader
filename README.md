@@ -32,11 +32,12 @@ SH01 credit-card plates with 12 words in one column, the master fingerprint, and
 ## Where it's going
 
 1. Pi camera photos with `plate-capture` → test and tune (focus, light).
-2. Fast enough for a Pi Zero.
-3. A **minimal SeedSigner fork**: official SeedSigner plus one added option, "Read SeedCard
-   plate", under Load a seed. It tracks official releases, has a reproducible build with published
-   hashes, and shrinks to a plate template if SeedSigner releases its own handwritten-word reader.
-   Contributing plate support upstream would be better still.
+2. A **Seed Hammer plate module for [Haller](https://github.com/haller-project/haller)**, the
+   handwritten-seed reader for SeedSigner released 22 November 2026. Haller provides the
+   SeedSigner side (camera capture, mandatory word review, trust levels, fingerprint
+   verification, Pi Zero C library); this reader becomes its plate path, returning the same
+   reading object. The fingerprint engraved on the plate lets a plate reading be **verified**.
+3. Offered to the Haller project first, so there is one shared fork, and upstream one day.
 
 The plan for the whole SeedCard system is in the engraver's
 [TODO.md](https://github.com/seedcard/engraver/blob/seedcard/TODO.md).
